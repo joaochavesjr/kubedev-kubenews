@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
         - name: kubenews
-          image: joaochavesjr/kube-news:v2
+          image: joaochavesjr/kube-news:{{TAG}}
           env:
           - name: DB_PASSWORD
             value: "Pg#123"
